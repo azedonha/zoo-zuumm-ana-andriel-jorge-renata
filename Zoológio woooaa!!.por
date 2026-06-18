@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
-    inteiro opcao, quantidade
+     inteiro opcao, quantidade
     real total
 
-    escreva("- - - - Zoológico Reanajo!! - - - -\n")
+    escreva("- - - - Zoológico Reanajo!! - - - -\n") // menu do zoológico
     escreva("1. Girafa - R$5\n")
     escreva("2. Elefante - R$20\n")
     escreva("3. Jacaré - R$50\n")
@@ -15,13 +15,13 @@ programa {
     escreva("9. Axolote - R$200\n")
     escreva("10. Unicórnio - R$250\n")
 
-    escreva("\nEscolha um animal:")
+    escreva("\nEscolha um animal:") // caixa interativa para o cliente escolher o animal desejado
     leia(opcao)
 
-    escreva("\nQuantidade:")
+    escreva("\nQuantidade:") // escolher a quntidade de ingressos
     leia(quantidade)
 
-    escolha(opcao){
+    escolha(opcao){ // todos os animais do zoológico
     caso 1:
     total = quantidade * 5
 
@@ -78,14 +78,14 @@ programa {
     escreva("Total a pagar: R$", total, "\n")
       pare
 
-      caso 8:
+      caso 9:
     total = quantidade * 200
 
     escreva("Você escolheu Axolote!🦎\n")
     escreva("Total a pagar: R$", total, "\n")
       pare
 
-      caso 7:
+      caso 10:
     total = quantidade * 250
 
     escreva("Você escolheu Unicórnio!🦄\n")
