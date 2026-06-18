@@ -27,6 +27,7 @@ programa {
 
     escreva("Você escolheu Girafa!🦒\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não rie do pescoço das girafas!\n")
       pare
 
     caso 2:
@@ -34,6 +35,7 @@ programa {
 
     escreva("Você escolheu Elefante!🐘\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não seja esmagado pelo elefante!\n")
       pare
 
     caso 3:
@@ -41,6 +43,7 @@ programa {
 
     escreva("Você escolheu Jacaré!🐊\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não coloque a mão na boca do jacarés!\n")
       pare
 
     caso 4:
@@ -48,6 +51,7 @@ programa {
 
     escreva("Você escolheu Cangurú!🦘\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não lute com os cangurús!\n")
       pare
 
     caso 5:
@@ -55,6 +59,7 @@ programa {
 
     escreva("Você escolheu Arará-Azul!🦜\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não estrague o canto das ararás!\n")
       pare
 
     caso 6:
@@ -62,6 +67,7 @@ programa {
 
     escreva("Você escolheu Tubarão!🦈\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Cuidado.\n")
       pare
 
     caso 7:
@@ -69,6 +75,7 @@ programa {
 
     escreva("Você escolheu Capivara!🦫\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("O zoológico não se responsabiliza por quaisquer danos causados pelas capivaras roendo suas roupas.\n")
       pare
     
     caso 8:
@@ -76,6 +83,7 @@ programa {
 
     escreva("Você escolheu Lontra!🦦\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Tá, tá, faça carinho nelas.\n")
       pare
 
       caso 9:
@@ -83,6 +91,7 @@ programa {
 
     escreva("Você escolheu Axolote!🦎\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Não nade com os axolotes!\n")
       pare
 
       caso 10:
@@ -90,6 +99,8 @@ programa {
 
     escreva("Você escolheu Unicórnio!🦄\n")
     escreva("Total a pagar: R$", total, "\n")
+    escreva("Pelo amor de Deus, não alimente os unicórnios! Eles aceitam apenas comida mágica feito pelas fadas e bebem água da ")
+    escreva("cachoeira encantada dos sonhos, não sua barrinha de cereal e granola do mercadinho.\n")
       pare
 
     caso contrario:
