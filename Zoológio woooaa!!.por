@@ -3,7 +3,7 @@ programa {
     inteiro opcao, quantidade
     real total
 
-    escreva("- - - - zooooo - - - -\n")
+    escreva("- - - - Zoológico Reanajo! - - - -\n")
     escreva("1. Girafa - R$5\n")
     escreva("2. Elefante - R$20\n")
     escreva("3. Jacaré - R$50\n")
@@ -24,9 +24,15 @@ programa {
     escreva("Você escolheu girafa!\n")
     escreva("Total a pagar: R$", total, "\n")
 
+    caso 2:
+    total = quantidade * 20
+
+    escreva("Você escolheu elefante!\n")
+    escreva("Total a pagar: R$", total, "\n")
+
     caso contrario:
     escreva("Opção inválida\n")
     }
 
-}
+  }
 }
